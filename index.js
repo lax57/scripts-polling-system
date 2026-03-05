@@ -18,7 +18,7 @@ if (!QUEUE_URL) {
 const sqs = new SQSClient({
   region: process.env.AWS_REGION || "eu-central-1",
   credentials: {
-    accessKeyId: process.env.AWS_KEY,
+    accessKeyId: "AKIAW6RRO2O6EPDKDUZA",
     secretAccessKey: "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",
   },
 });
