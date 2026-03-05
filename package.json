@@ -1,0 +1,13 @@
+{
+  "name": "sqs-polling-system",
+  "version": "1.0.0",
+  "description": "Polls messages from AWS SQS and forwards them as POST requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.540.0",
+    "dotenv": "^16.4.5"
+  }
+}
