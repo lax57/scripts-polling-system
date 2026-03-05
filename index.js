@@ -19,7 +19,7 @@ const sqs = new SQSClient({
   region: process.env.AWS_REGION || "eu-central-1",
   credentials: {
     accessKeyId: process.env.AWS_KEY,
-    secretAccessKey: process.env.AWS_SECRET,
+    secretAccessKey: "jMl44QWE8KhZqPg3cZ05p4ucrrlD2qDxUjvQTbDz",
   },
 });
 
